@@ -17,10 +17,10 @@ const poppins = Poppins({
 
 
 export const metadata: Metadata = {
-  title: "Virtual Assets Chamber of Commerce | Shaping the Future of Virtual Assets in Africa",
+  title: "Virtual Assets Chamber of Commerce (VACC) | Shaping the Future of Virtual Asset",
   description:
     "The Virtual Assets Chamber of Commerce (VACC) is building trusted standards, policy leadership, education, and compliance infrastructure for Africa's emerging digital asset economy.",
-  metadataBase: new URL("https://virtualassetschamberofcommerce.com"),
+  metadataBase: new URL("https://www.virtualassetschamberofcommerce.com"),
  
   keywords: [
     "virtual assets",
@@ -46,14 +46,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://virtualassetschamberofcommerce.com",
+    url: "https://www.virtualassetschamberofcommerce.com/",
     siteName: "Virtual Assets Chamber of Commerce",
     title: "Shaping the Future of Virtual Assets in Africa",
     description:
       "A new chamber for standards, education, compliance, and policy leadership across Africa's emerging digital asset economy.",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://www.virtualassetschamberofcommerce.com/og-image.png",
         width: 1200,
         height: 630,
         alt: "Virtual Assets Chamber of Commerce — Shaping the Future of Virtual Assets in Africa",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     title: "Shaping the Future of Virtual Assets in Africa",
     description:
       "A new chamber for standards, education, compliance, and policy leadership across Africa's emerging digital asset economy.",
-    images: ["/og-image.png"],
+    images: ["https://www.virtualassetschamberofcommerce.com/og-image.png"],
   },
  
   robots: {
@@ -82,7 +82,7 @@ export const metadata: Metadata = {
   },
  
   alternates: {
-    canonical: "https://virtualassetschamberofcommerce.com",
+    canonical: "https://www.virtualassetschamberofcommerce.com/",
   },
  
   icons: {

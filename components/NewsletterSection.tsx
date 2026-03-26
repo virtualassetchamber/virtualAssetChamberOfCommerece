@@ -35,15 +35,15 @@ function NewsletterSection() {
     return (
         <section className="bg-white px-6 py-20">
 
-            <div className="mx-auto max-w-7xl relative z-10 bg-[#3F0FA8] py-20 px-8 overflow-hidden">
-                <div className="absolute top-[15%] right-0 w-[25.33rem] h-[25.33rem] bg-[#AA94FF]/20 skew-x-45 transform origin-top-right pointer-events-none" />
+            <div className="mx-auto max-w-7xl relative z-10 bg-[#3F0FA8] md:py-20 py-14 px-8 overflow-hidden">
+                <div className="absolute md:top-[15%] top-0 right-0 w-[25.33rem] h-[25.33rem] bg-[#AA94FF]/20 skew-x-45 transform origin-top-right pointer-events-none" />
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start relative z-30">
 
                     <div className="space-y-8">
-                        <h2 className="text-white font-(family-name:--font-poppins) text-[3rem] font-semibold leading-12">
+                        <h2 className="text-white font-(family-name:--font-poppins) md:text-[3rem] text-[2rem] font-semibold leading-12">
                             Subscribe for V.A.C.C.<br /> updates, event<br /> invitations, insights,<br /> & strategic<br /> perspectives.
                         </h2>
-                        <p className="text-[#AA94FF]/80 font-(family-name:--font-inter) italic text-[1.25rem] max-w-md">
+                        <p className="text-[#AA94FF]/80 font-(family-name:--font-inter) italic md:text-[1.25rem] max-w-md">
                             Gain exclusive access to the intelligence driving the African digital asset frontier.
                         </p>
                     </div>
@@ -52,7 +52,7 @@ function NewsletterSection() {
                         {benefits.map((benefit) => (
                             <div key={benefit} className="flex items-start gap-3 group">
                                 <Image src="/svg/check.svg" alt='check' width={20} height={20} />
-                                <span className="text-white font-(family-name:--font-inter) text-[1.5rem] font-medium leading-tight">
+                                <span className="text-white font-(family-name:--font-inter) md:text-[1.5rem] font-medium leading-tight">
                                     {benefit}
                                 </span>
                             </div>
@@ -66,7 +66,7 @@ function NewsletterSection() {
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4ade80" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                                 <polyline points="20 6 9 17 4 12" />
                             </svg>
-                            <p className="text-white font-(family-name:--font-poppins) text-lg font-semibold">
+                            <p className="text-white font-(family-name:--font-poppins) md:text-lg font-semibold">
                                 {message}
                             </p>
                         </div>

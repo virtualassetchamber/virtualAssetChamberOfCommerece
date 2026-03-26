@@ -27,17 +27,17 @@ const pillars = [
 function FoundationalPillar() {
   return (
     <section className="bg-secondary">
-      <div className="mx-auto max-w-7xl px-6 py-24">
+      <div className="mx-auto max-w-7xl px-6 md:py-24 py-16">
         <div className="mb-16">
           <p className="tracking-[2.4px] font-(family-name:--font-inter) text-primary text-xs font-semibold uppercase mb-4">
             V.A.C.C Framework
           </p>
-          <h2 className="text-text-secondary font-(family-name:--font-poppins) text-[3rem] font-semibold leading-tight">
+          <h2 className="text-text-secondary font-(family-name:--font-poppins) md:text-[3rem] text-[2.5rem] font-semibold leading-tight">
             Foundational Pillars
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 border border-border/30 backdrop-blur-sm">
+        <div className="grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2 border border-border/30 backdrop-blur-sm">
           {pillars.map((pillar, index) => (
             <div 
               key={pillar.title} 
