@@ -13,7 +13,7 @@ export default function Hero() {
           <div>
             <p className="tracking-[2.8px] font-(family-name:--font-inter) text-primary text-sm font-semibold uppercase mb-6">VIRTUAL ASSET CHAMBER OF COMMERCE</p>
 
-            <p className="md:text-[72px] text-[3rem] text-primary font-(family-name:--font-poppins) font-semibold leading-19 mb-6">Shaping the Future<br />
+            <p className="md:text-[72px] text-[2rem] text-primary font-(family-name:--font-poppins) font-semibold leading-19 mb-6">Shaping the Future<br />
               of Virtual Assets<br />
               in Africa</p>
 
